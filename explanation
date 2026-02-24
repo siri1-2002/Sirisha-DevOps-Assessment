@@ -1,0 +1,22 @@
+Key Implementations
+🔹 Containerization
+
+Created Dockerfiles for both frontend and backend.
+
+Used official MongoDB Docker image.
+
+Used Docker Compose to orchestrate multi-container setup.
+
+🔹 CI/CD Pipeline
+
+GitHub Actions automatically:
+
+Builds Docker images on push.
+
+Pushes images to Docker Hub.
+
+Connects to EC2 via SSH.
+
+Pulls latest images.
+
+Restarts containers.
